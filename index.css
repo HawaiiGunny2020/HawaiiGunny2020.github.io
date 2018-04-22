@@ -11,6 +11,7 @@ p{text-shadow:1px 1px #0000FF;}
 header p{font-size:20pt;}
 nav ul{list-style-type:none;}
 ul li{font-size:18pt;}
-footer{color:#000000;}
+footer{color:#000000;
+       margin-top: 100px 200px;}
 
 
