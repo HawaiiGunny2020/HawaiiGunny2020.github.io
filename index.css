@@ -1,17 +1,80 @@
-body{ background-color:#8cb3d9;
-      Font-family: verdana, helvetica, sans-serif;
-      color:#ffdead;
-      background-image: url(splash.png);}
-header{background-color:#0d1a00;}
-header div{ float:right;}
-header h1{font-size:30pt;
-          font-color:#FF0000;}
-h1{text-shadow: 2px 2px #FF0000;}
-p{text-shadow:1px 1px #0000FF;}
-header p{font-size:20pt;}
-nav ul{list-style-type:none;}
-ul li{font-size:18pt;}
-footer{color:#000000;
-       margin:200px 0px 0px 0px;}
-
-
+* {box-sizing: border-box;}
+body { 
+  margin: 0;
+  font-family: Lato,Arial,sans-serif;
+  background-color: #7fffd4;
+  background-image:url(board.jpeg);
+  background-size:cover;
+}
+.header {
+  overflow: hidden;
+  background-color: #0a2413;
+  padding: 20px 10px;
+  box-shadow: 5px 10px;
+}
+.header a {
+  float: left;
+  color: #ffdead;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header img {
+float: left;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: #d13159;
+  color: #0000ff;
+}
+.header a.active {
+  background-color: #4d0026;
+  color: #ffdead;
+}
+.header-right {
+  float: right;
+}
+  }
+  .header-right {
+    float: none;
+  }
+  .row:after {
+    content: "";
+    display: table;
+  }
+ .column {
+    float: left;
+    width: 30.33%;
+    padding: 20px;
+    background-color:#e91b9a;
+    background: linear-gradient(to right, #e91b9a, #9acd32);
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border-radius: 3rem;
+     box-shadow: 5px 10px;
+    }
+    .column1 {
+    float: right;
+    width: 55.33%;
+    padding: 20px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    color:#000000;
+    background-color: #7fffd4;
+    background: linear-gradient(to right, #ffdead, #9acd32);
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    box-shadow: 5px 10px;
+    text-align:center;
+  }
+  .footer p{
+    margin:550px 0px 0px;
+    margin-left:950px;
+    color:#ffffff;
+}
